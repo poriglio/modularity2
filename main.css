@@ -1,1 +1,53 @@
-/* ADD YOUR STYLES HERE */
+/*HORIZONTALLY SPACED exercise*/
+
+div.images{
+	margin: auto;
+	/*width: 700px;*/
+	text-align: center;
+	position: relative;
+}
+
+.images ol,p,img{
+	text-align: left;
+	vertical-align: top;
+	display: inline-block;
+	padding: 20px;
+}
+
+.images ol{
+	padding-left: 50px;
+}
+
+/*VERTICALLY SPACED exercise*/
+
+/*.parent{
+	position: relative;
+	height: 500px;
+	line-height: 500px;
+}
+
+.child{
+	height: 500px;
+	display: inline-block;
+	vertical-align: middle;
+
+.child>img{
+	display: inline-block;
+};*/
+
+.parent{
+	display: block;
+	height: 50vh;
+	line-height: 50vh;
+}
+
+.child,.child>*{
+	vertical-align: middle;
+	display: inline-block;
+	height: 90px;
+}
+
+.child>img{
+	padding: 1px;
+	display: inline-block;
+}
