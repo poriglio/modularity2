@@ -171,13 +171,10 @@ a:link,a:visited{
 	border-bottom: 2px solid rgb(203,108,125);
 }
 
-a:link, a:visited{
+li a:hover,a:link,a:active{
 	text-decoration: none;
 	color: rgb(203,108,125);
 }
-
-
-
 
 
 /*COMMENT STREAM EXERCISE*/
