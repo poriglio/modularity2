@@ -63,3 +63,41 @@ height: 500px;
 	margin-top: auto;
 	margin-bottom: auto;
 }
+
+
+
+
+
+/*HORIZONTAL LIST EXERCISE*/
+
+.horizontalitem{
+	display: inline;
+}
+
+
+
+/*BUTTONS EXERCISE*/
+
+.button{
+	background: rgb(200,86,113);
+	color: white;
+	border-radius: 5px;
+	text-decoration: none;
+	display: inline-block;
+	text-align: center;
+}
+
+.buttonlarge{
+	font-size: 25px;
+	padding: 20px 65px;
+}
+
+.buttonmedium{
+	font-size: 16px;
+	padding: 10px 40px;
+}
+
+.buttonsmall{
+	font-size: 14px;
+	padding: 5px 7px;
+}
