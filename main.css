@@ -143,3 +143,49 @@ a:link,a:visited{
 	padding-left: 7px;
 	border-radius: 5px 0px 0px 5px;
 }
+
+/*PAGINATION EXERCISE*/
+
+.paginationlist{
+	color: black;
+	list-style-type: none;
+	text-align: center;
+	font-weight: lighter;
+	font-size: 12pt;
+}
+
+.number{
+	display: inline-block;
+	padding: 5px 7px;
+	margin: 2px;
+}
+
+.currentpage{
+	display: inline-block;
+	color: gray;
+	border-bottom: 2px solid gray;
+	padding: 5px 7px;
+}
+
+.line{
+	border-bottom: 2px solid rgb(203,108,125);
+}
+
+a:link, a:visited{
+	text-decoration: none;
+	color: rgb(203,108,125);
+}
+
+
+
+
+
+/*COMMENT STREAM EXERCISE*/
+
+
+
+
+
+
+
+
