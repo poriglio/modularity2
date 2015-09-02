@@ -2,12 +2,34 @@
 
 div.images{
 	margin: auto;
-	/*width: 700px;*/
+	width: 800px;
 	text-align: center;
 	position: relative;
 }
 
-.images ol,p,img{
+/*.images>ol,p,img{
+	.images>ol,.images>p,.images>img{
+	text-align: left;
+	vertical-align: top;
+	display: inline-block;
+	padding: 20px;
+}*/
+
+.images ol{
+	text-align: left;
+	vertical-align: top;
+	display: inline-block;
+	padding: 20px;
+}
+
+.images p{
+	text-align: left;
+	vertical-align: top;
+	display: inline-block;
+	padding: 20px;
+}
+
+.images img{
 	text-align: left;
 	vertical-align: top;
 	display: inline-block;
@@ -18,36 +40,26 @@ div.images{
 	padding-left: 50px;
 }
 
-/*VERTICALLY SPACED exercise blah blah blah blah blah blah blah*/
 
-/*.parent{
-	position: relative;
-	height: 500px;
-	line-height: 500px;
-}
 
-.child{
-	height: 500px;
-	display: inline-block;
-	vertical-align: middle;
 
-.child>img{
-	display: inline-block;
-};*/
+/*VERTICALLY SPACED exercise*/
 
 .parent{
-	display: block;
-	height: 50vh;
-	line-height: 50vh;
+display: flex;
+height: 500px;
 }
 
-.child,.child>*{
-	vertical-align: middle;
-	display: inline-block;
-	height: 90px;
+.child1{
+	flex-direction: row;
+	padding: 3px;
 }
 
-.child>img{
-	padding: 1px;
-	display: inline-block;
+.child2 *{
+	flex-direction: column;
+}
+
+.childboth{
+	margin-top: auto;
+	margin-bottom: auto;
 }
