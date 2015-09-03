@@ -170,7 +170,7 @@ a:link,a:visited{
 	border-bottom: 2px solid rgb(203,108,125);
 }
 
-li a:hover,a:link,a:active{
+.paginationlist a{
 	text-decoration: none;
 	color: rgb(203,108,125);
 }
@@ -178,10 +178,28 @@ li a:hover,a:link,a:active{
 
 /*COMMENT STREAM EXERCISE*/
 
+.commentimage{
+	float:left;
+	margin: 8px;
+}
 
+.commenttext{
+	padding-top:8px;
+}
 
+.clearfloat:after{
+	content: ".";
+	visibility: hidden;
+	display: block;
+	height: 0;
+	clear: both;
+}
 
+.parentcomment{
+	position: relative;
+}
 
-
-
-
+.childcomment{
+	position: relative;
+	left: 95px;
+}
