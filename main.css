@@ -4,7 +4,6 @@ div.images{
 	margin: auto;
 	width: 800px;
 	text-align: center;
-	position: relative;
 }
 
 /*.images>ol,p,img{
